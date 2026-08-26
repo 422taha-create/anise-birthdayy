@@ -45,11 +45,12 @@ main{position:relative;z-index:2}
   z-index:2;
 }
 .birthday-layout{
-  width:min(1180px,100%);
-  display:grid;
-  grid-template-columns:1.15fr .85fr;
-  gap:50px;
+  width:min(900px,100%);
+  display:flex;
+  flex-direction:column;
+  gap:22px;
   align-items:center;
+  justify-content:center;
 }
 .glass{
   background:linear-gradient(145deg,rgba(28,2,47,.72),rgba(14,0,30,.62));
@@ -189,4 +190,20 @@ button:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 0 22px #ff43bd,
   .caption p{font-size:13px}
   .section-title{gap:10px}
   .section-title span{font-size:28px}
+}
+
+/* HERO MOBILE FIX */
+.hero{min-height:auto;padding-top:24px;padding-bottom:70px}
+.name{margin-bottom:6px}
+.balloon-scene{width:100%;min-height:330px;padding-top:0}
+.message-card{width:min(760px,100%);position:relative;z-index:5;margin-top:4px}
+@media(max-width:600px){
+  .hero{padding:20px 14px 55px}
+  .name{font-size:72px;margin-bottom:2px}
+  .balloon-scene{min-height:285px}
+  .number-balloon{font-size:150px}
+  .message-card{padding:22px 14px;border-radius:20px}
+  .message-card h1{font-size:28px;line-height:1.08}
+  .message-card p{font-size:14px;line-height:1.55}
+  #startBtn{width:100%;font-size:15px}
 }
