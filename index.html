@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#12001f" />
+  <title>Anise'nin 19. Yaşı 💜</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>
+  <div id="butterflies" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+
+      <div class="name">Anise</div>
+
+      <div class="birthday-layout">
+        <div class="message-card glass">
+          <div class="eyebrow">💜 BİRTANEM 💗</div>
+          <h1>DOĞUM GÜNÜN KUTLU OLSSUN</h1>
+          <p>
+            SENİ ÇOKKK ÇOKK ÇOKK SEVİYORUIM<br>
+            CANİM SEVGİLİM
+          </p>
+          <div class="tiny-heart">♡</div>
+          <p>
+            İYİ Kİ DOGGGDUNN 🎂<br>
+            İYİ Kİ HAYATİMDASİN<br>
+            BENİM GÜZELLER GÜZELİ SEVGİLİM 💕
+          </p>
+          <button id="startBtn">Sürprizine Başla 💞</button>
+        </div>
+
+        <div class="balloon-scene" aria-label="19 yaş balonları">
+          <div class="number-balloon">1</div>
+          <div class="number-balloon">9</div>
+          <div class="balloon-cluster">
+            <span class="balloon b1"></span>
+            <span class="balloon b2"></span>
+            <span class="balloon b3"></span>
+            <span class="balloon b4"></span>
+            <span class="balloon b5"></span>
+            <span class="balloon heart-balloon">♥</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-down" href="#memories" aria-label="Aşağı kaydır">⌄</a>
+    </section>
+
+    <section class="memories" id="memories">
+      <div class="section-title">
+        <span>♡</span>
+        <h2>Hatıralarımız</h2>
+        <span>♡</span>
+      </div>
+      <p class="subtitle">Birlikte biriktirdiğimiz en güzel anılarımız... 💕</p>
+
+      <div class="cards">
+        <article class="memory-card reveal">
+          <div class="card-number">01</div>
+          <div class="tape"></div>
+          <img src="images/foto1.jpeg" alt="Anise ile hatıra 1">
+          <div class="caption">
+            <span class="heart">♥</span>
+            <p>BİRTANEM SENİ YERİM BAK SU TATLİSSLİGA BAK SİMDİ BU KİZ 19 YASİNDA BENİM BİRRTANEMM</p>
+          </div>
+        </article>
+
+        <article class="memory-card reveal">
+          <div class="card-number">02</div>
+          <div class="tape"></div>
+          <img src="images/foto2.jpeg" alt="Anise ile hatıra 2">
+          <div class="caption">
+            <span class="heart">♥</span>
+            <p>ASSSKİMMM BİZİM İLK ZAMANLARİMİZZ NE KADAR DA TATLİSİİZ AMA SEN BENİM STAR PARCAM OLDUGUN İCİN NASİ BELLİ EDİYORSUN FOTOGRAFTA KENDİNİ CANİM SEVGİLİM</p>
+          </div>
+        </article>
+
+        <article class="memory-card reveal">
+          <div class="card-number">03</div>
+          <div class="tape"></div>
+          <img src="images/foto3.jpeg" alt="Anise ile hatıra 3">
+          <div class="caption">
+            <span class="heart">♥</span>
+            <p>GÜZELİMM BURDA YAVAS YAVAS BİRBİRİMİZE ALİSİYORUZ BU FOTOGRAF COK ÖNEMLİ BİZİM İCİN İLK YAKİNLASMAMİZ</p>
+          </div>
+        </article>
+
+        <article class="memory-card reveal">
+          <div class="card-number">04</div>
+          <div class="tape"></div>
+          <img src="images/foto4.jpeg" alt="Anise ile hatıra 4">
+          <div class="caption">
+            <span class="heart">♥</span>
+            <p>ASSKİMİ COK ÖZLEDİGİM İCİNN ONA CİCEK ALMİSSTİM YAANİİ BENİM CİCEGİM VE SENİN CİCEGNN ASSSKİM BENİM</p>
+          </div>
+        </article>
+
+        <article class="memory-card reveal">
+          <div class="card-number">05</div>
+          <div class="tape"></div>
+          <img src="images/foto5.jpeg" alt="Anise ile hatıra 5">
+          <div class="caption">
+            <span class="heart">♥</span>
+            <p>ASKİM BU FOTOGRAF COK TATLİS BENCE SEN BU HALİMİ COK BEGENMİSTİN AMA BURDA EN ÖNEMLİ OLAY SENSİN MASALLAH SU GÜZELLİGE BAK SEVGİLİMİN YA</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="big-heart">♡</div>
+      <h2>Seni her geçen gün<br>daha çok seviyorum <em>Anise</em> ♡</h2>
+      <button id="loveBtn">Seni Çok Seviyorum 💜</button>
+      <p>İyi ki doğdun bir tanem, iyi ki hayatımdasın... 💕</p>
+      <div id="loveBurst" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
